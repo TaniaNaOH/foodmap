@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FOODMAP</title>
+<link rel="stylesheet" href="css/materialize.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid" class="responsive-img">
+		<div class="row foodmap" alt="mapa">
+			<div class="row">
+				<div class="col s12">
+					<h1> FOODMAP </h1>
+	          <!-- Mopa -->
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.817215681844!2d-99.16530268552586!3d19.420301986891268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff41d4c73813%3A0xd1c6f4fcad149f54!2sLaboratoria+Coding!5e0!3m2!1ses-419!2smx!4v1516467026201" width="300" height="200" frameborder="0" style="border:0" allowfullscreen>
+					</iframe>
+				    <input type="search" id="input-search" placeholder="¿Que se te antoja?">
+				    <div class="content-search">
+				      <div class="content-table">
+				        <table id="table">
+				          <thead>
+				            <tr>
+				              <td><a href="#">Internacional</a></td>
+				            </tr>
+				          </thead>
+				            <tbody>
+				               <tr>
+				                 <td>
+				                   <a href="#">Saludable</a>
+				                 </td>
+				               </tr>
+				               <tr>
+				                 <td>
+				                   <a href="#">Fast food</a>
+				                 </td>
+				               </tr>
+				               <tr>
+				                 <td>
+				                   <a href="#">Oriental</a>
+				                 </td>
+				               </tr>
+				               <tr>
+				                 <td>
+				                   <a href="#">Gourmet</a>
+				                 </td>
+				               </tr>
+				               <tr>
+				                 <td>
+				                   <a href="#">Italiana</a>
+				                 </td>
+				               </tr>
+				               <tr>
+				                 <td>
+				                   <a href="#">Mexicana</a>
+				                 </td>
+				               </tr>
+				               <tr>
+				                 <td>
+				                   <a href="#">Fuente de sodas</a>
+				                 </td>
+				               </tr>
+				            </tbody>
+				        </table>
+				      </div>
+				    </div>
+        <!-- Modal Trigger --
+          <a class="waves-effect black btn modal-trigger" href="#modal1"> COMIDA CERCA DE TI </a>
+          <!-- Modal Structure
+          <div id="modal1" class="modal bottom-sheet">
+            <div class="modal-content">
+              <h4>ELIGE TU RESTAURANTE</h4>
+              <ul class="restaurantes">
+                <li class="list rest">
+                  <img src="./assets/img/food11.jpg" height="100px" width="100px" alt="Salad">
+                  <span class="name">Healty</span>  <a href="#Salad" class="modal-action modal-close waves-effect black btn-flat">Beautiful Salads</a>
+                </li>
+                <hr>
+                <li class="list rest">
+                  <img src="./assets/img/food3.jpg" height="100px" width="100px" alt="Hamburguer">
+                  <span class="name">Fast Food</span>  <a href="#!" class="modal-action modal-close waves-effect black btn-flat">Hip Hip Burguers</a>
+                </li>
+                <hr>
+                <li class="list rest">
+                  <img src="./assets/img/foodramen.jpg" height="100px" width="100px" alt="RamenSoup">
+                  <span class="name">Japanesse</span>  <a href="#!" class="modal-action modal-close waves-effect black btn-flat">Ramenizzer</a>
+                </li>
+                <hr>
+                <li class="list rest">
+                  <img src="./assets/img/food4.jpg" height="100px" width="100px" alt="Gourmet">
+                  <span class="name">Gourmet</span>  <a href="#!" class="modal-action modal-close waves-effect black btn-flat">Foodie´s house</a>
+                </li>
+                <hr>
+                <li class="list rest">
+                  <img src="./assets/img/foodpizza.jpg" height="100px" width="100px" alt="Pizza">
+                  <span class="name">Italian</span>  <a href="#!" class="modal-action modal-close waves-effect black btn-flat">Pizza Piace</a>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect black btn-flat">Regresar</a>
+            </div>
+          </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="Salads">
+
+<!-- <a href="#Salad" class="modal-action modal-close waves-effect black btn-flat">Beautiful Salads</a>
+<img src="./assets/img/food11.jpg" height="100px" width="100px" alt="Salad">
+</div> -->
+
+<!-- activar materialize
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script> -->
+
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+</body>
+</html>
