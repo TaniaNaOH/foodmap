@@ -1,0 +1,17 @@
+
+p {
+  font-size: 25px;
+  color: black;
+  text-align: center;
+}
+
+body > div > div > div > div > div.card-action {
+ font-size: 80px;
+}
+
+
+card-action {
+  font-size: 25px;
+  color: black;
+  text-align: center;
+}
