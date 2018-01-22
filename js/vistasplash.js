@@ -1,5 +1,5 @@
 $(document).ready(function() {
   setTimeout(function() {
-    location.href = "./index.html";
+    location.href = "./vistas/index.html";
     }, 3000);
   })
