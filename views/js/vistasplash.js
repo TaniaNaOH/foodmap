@@ -1,5 +1,5 @@
 $(document).ready(function() {
   setTimeout(function() {
-    location.href = "./vistas/index.html";
+    location.href = "../foodmap/views/vistasplash.html";
     }, 3000);
   })
