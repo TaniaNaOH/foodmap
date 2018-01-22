@@ -1,6 +1,5 @@
-
-//$(document).ready(function() {
+$(document).ready(function() {
   setTimeout(function() {
-    location.href = "../index";
+    location.href = "./index.html";
     }, 3000);
   })
