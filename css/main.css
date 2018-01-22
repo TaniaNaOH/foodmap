@@ -89,3 +89,19 @@ margin: 0 auto;
 #table > tbody > tr:nth-child(3) {
   margin: 0 auto;
 }
+
+
+
+/*
+.foodmap {
+	background-image:url(../assets/img/food2.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+background-position:center;
+height:100vh;
+margin:0 auto;
+width:100%;
+font-size: 70px;
+color: white;
+text-align: center;
+}/*
