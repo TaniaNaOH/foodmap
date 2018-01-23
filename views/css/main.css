@@ -18,7 +18,7 @@ max-width {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 90px;
   color: white;
   text-align: center;
 }
@@ -107,6 +107,16 @@ margin: 0 auto;
   margin: 0 auto;
 }
 
+a {
+  font-size: 80px;
+}
+
+footer {
+  background-color: red;
+  text-align: right;
+}
+
+#table > tbody > tr:nth-child(1) > td > a
 
 
 /*
