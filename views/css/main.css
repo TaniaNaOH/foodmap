@@ -1,4 +1,21 @@
+.setTimeout {
+  margin-top: 200px;
+}
 
+body {
+  width: 100%;
+  background-color: black;
+}
+
+max-width {
+	max-width:100%;
+	height:auto;
+}
+
+
+#container {
+  width: 100%;
+}
 
 h1 {
   font-size: 70px;
@@ -7,7 +24,7 @@ h1 {
 }
 
 .foodmap {
-	background-image:url(../assets/img/food2.jpg);
+	background-image:url(../assets/img/portada.jpg);
 	background-size:cover;
 	height:100vh;
 	margin:0 auto;
@@ -40,7 +57,7 @@ header {
 }
 
 .content-search {
-  width: 100%;
+  width: 80%;
   height: 100vh;
   position: fixed;
   left: 0;
